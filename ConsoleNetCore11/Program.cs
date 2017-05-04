@@ -18,9 +18,9 @@ namespace ConsoleNetCore11
             //A07_PassingDataToAThread.Run();
             //A08_LambdaCapturedVariables.Run();
             //A09_CapturedVariables.Run();
-            A10_NamingThreads.Run();
+            //A10_NamingThreads.Run();
+            A11_ForegroundAndBackground.Run();
 
-            Thread.Sleep(500);
             Console.ReadKey();
         }
 
