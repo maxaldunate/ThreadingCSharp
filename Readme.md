@@ -34,43 +34,41 @@ Usando ASP.NET o WCF, tal vez estás usando multithreading sindarte cuenta, hasta
 * Threading también aumenta el costo de `scheduling` and switching de los hilos, sobretodo cuando hay más threads activos que los cores del CPU. También para crearlos y matarlos
 
 ### Creando y Lanzando Threads
-#### Ejemplos A06 hasta XXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 * Lock & Join
 * Delegates
-* Sharing data
-** Instance
-** Statics
-** Variables
-** Lambdas
+* Sharing data: Instance, Statics, Variables y Lambdas
 * Naming
 * Foreground & Background
 * Priority
 * Exception Handlng
 
-* Thread Pooling
-** Intro
-*** Task Parallel Library (from Framework 4.0)
-*** ThreadPool.QueueUserWorkItem
-*** Asynchronous delegates
-*** BackgroundWorker
-*** Others Using thread pooling indirectly
-**** WCF, Remoting, ASP.NET, and ASMX Web Services application servers
-**** System.Timers.Timer and System.Threading.Timer
-**** Framework methods that end in Async, such as those on WebClient (the event-based asynchronous pattern), and most BeginXXX methods (the asynchronous programming model pattern)
-**** PLINQ
+### Thread Pooling
 
-** Pooled Threads. Tener en cuenta
-*** No se pueden nombrar los threads
-*** siempre corren en background
-*** blocking puede añadir mayor latencia
-*** Se puede cambiar la prioridad y se reseteará automaticamente
+#### Formas de acceder al pool
+* Task Parallel Library (from Framework 4.0)
+* ThreadPool.QueueUserWorkItem
+* Asynchronous delegates
+* BackgroundWorker
 
-** Entering the Thread Pool via TPL
-** Entering the Thread Pool Without TPL
-*** QueueUserWorkItem
-*** Asynchronous delegates
-** Optimizing the Thread Pool
+#### Otros usos indirectos del pool
+
+* WCF, Remoting, ASP.NET, and ASMX Web Services application servers
+* System.Timers.Timer and System.Threading.Timer
+* Framework methods that end in Async, such as those on WebClient (the event-based asynchronous pattern), and most BeginXXX methods (the asynchronous programming model pattern)
+* PLINQ
+
+#### Pooled Threads. Tener en cuenta
+* No se pueden nombrar los threads
+* siempre corren en background
+* blocking puede añadir mayor latencia
+* Se puede cambiar la prioridad y se reseteará automaticamente
+
+### Entering the Thread Pool via TPL
+### Entering the Thread Pool Without TPL
+### QueueUserWorkItem
+### Asynchronous delegates
+### Optimizing the Thread Pool
 
 
 
