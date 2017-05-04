@@ -21,7 +21,10 @@ namespace ConsoleNetCore11
             //A10_NamingThreads.Run();
             //A11_ForegroundAndBackground.Run();
             //A12_ThreadPriority.Run();
-            A13_ExceptionHandling.Run();
+            //A13_ExceptionHandling.Run();
+            A14_ThreadPooling.Run();
+
+
 
             Console.ReadKey();
         }
