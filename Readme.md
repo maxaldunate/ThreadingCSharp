@@ -36,6 +36,18 @@ Usando ASP.NET o WCF, tal vez estás usando multithreading sindarte cuenta, hasta
 ### Creando y Lanzando Threads
 #### Ejemplos A06 hasta XXXXXXXXXXXXXXXXXXXXXXXXXXX
 
+* Lock & Join
+* Delegates
+* Sharing data
+** Instance
+** Statics
+** Variables
+** Lambdas
+* Naming
+* Foreground & Background
+* Priority
+* Exception Handlng
+
 
 
 

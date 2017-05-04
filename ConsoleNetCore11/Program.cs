@@ -19,7 +19,9 @@ namespace ConsoleNetCore11
             //A08_LambdaCapturedVariables.Run();
             //A09_CapturedVariables.Run();
             //A10_NamingThreads.Run();
-            A11_ForegroundAndBackground.Run();
+            //A11_ForegroundAndBackground.Run();
+            //A12_ThreadPriority.Run();
+            A13_ExceptionHandling.Run();
 
             Console.ReadKey();
         }
