@@ -1,9 +1,0 @@
-D:\cloud\github\Threading\ConsoleNetCore11\bin\Debug\netcoreapp1.1\ConsoleNetCore11.deps.json
-D:\cloud\github\Threading\ConsoleNetCore11\bin\Debug\netcoreapp1.1\ConsoleNetCore11.runtimeconfig.json
-D:\cloud\github\Threading\ConsoleNetCore11\bin\Debug\netcoreapp1.1\ConsoleNetCore11.runtimeconfig.dev.json
-D:\cloud\github\Threading\ConsoleNetCore11\bin\Debug\netcoreapp1.1\ConsoleNetCore11.dll
-D:\cloud\github\Threading\ConsoleNetCore11\bin\Debug\netcoreapp1.1\ConsoleNetCore11.pdb
-D:\cloud\github\Threading\ConsoleNetCore11\obj\Debug\netcoreapp1.1\ConsoleNetCore11.AssemblyInfo.cs
-D:\cloud\github\Threading\ConsoleNetCore11\obj\Debug\netcoreapp1.1\ConsoleNetCore11.dll
-D:\cloud\github\Threading\ConsoleNetCore11\obj\Debug\netcoreapp1.1\ConsoleNetCore11.pdb
-D:\cloud\github\Threading\ConsoleNetCore11\obj\Debug\netcoreapp1.1\ConsoleNetCore11.csprojResolveAssemblyReference.cache
